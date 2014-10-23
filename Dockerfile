@@ -12,7 +12,7 @@ RUN apt-get update \
  && wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add - \
  && apt-get update \
  && apt-get upgrade -y \
- && apt-get install -y postgresql-9.4 postgresql-client-9.4 pwgen \
+ && apt-get install -y postgresql-9.4 postgresql-client-9.4 postgresql-contrib-9.4 pwgen \
  && rm -rf /var/lib/postgresql \
  && rm -rf /var/lib/apt/lists/* # 20141001
 

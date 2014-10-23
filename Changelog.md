@@ -5,6 +5,7 @@
 - changes to ubuntu 14.04 container
 - uses [PGDG](https://wiki.postgresql.org/wiki/Apt) to install postgresql
 - changes postgresql version from 9.1 to 9.4beta
+- adds postgresql-contrib extension
 
 **9.1-1**
 
